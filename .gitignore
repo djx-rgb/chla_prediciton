@@ -1,0 +1,23 @@
+# 1. 屏蔽所有 Excel 数据文件（保护隐私）
+*.xlsx
+*.xls
+*.csv
+
+# 2. 屏蔽参数配置文件（实现你说的“参数逻辑分离”）
+config.json
+
+# 3. 屏蔽虚拟环境（这个非常大，千万别传）
+venv/
+.venv/
+env/
+
+# 4. 屏蔽 PyCharm 的配置文件
+.idea/
+
+# 5. 屏蔽 Python 产生的缓存
+__pycache__/
+*.pyc
+
+gitignore/
+
+wandb/
