@@ -1,11 +1,12 @@
 {
     "project_name": "chla_prediction",
-    "exp_name": "lstm_v0",
-    "epochs": 300,
+    "exp_name": "chla_best_model",
+    "learning_rate": 0.002927782444279253,
+    "lstm_units": 48,
     "batch_size": 8,
-    "learning_rate": 0.001,
-    "lstm_units": 16,
     "dropout_rate": 0.2,
-    "test_size": 0.2,
+    "l2_reg": 0.1,
+    "epochs": 150,
+    "test_size": 0.3,
     "random_seed": 42
 }
